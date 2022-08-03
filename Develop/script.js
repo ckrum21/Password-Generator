@@ -1,7 +1,21 @@
 //Assignment Code
 var generateBtn = document.querySelector("#generate");
 
+//function generates a random intger between the min and max
+function randomInt(min, max) {
+  if (!max) {
+    max = min
+    min = 0
+  }
+//math.random picks a random number. Math.floor ensures that the number is a whole number.
+var rand = Math.random()
+return Math.floor(min*(1 - rand) + rand*max)
+}
 
+// function generates a random number from the charater lists arrays
+function randomItem(list) {
+  return list[randomInt(list.length)]
+}
 
 
 function generatePassword(){
@@ -74,9 +88,19 @@ if (options.length === 0) {
 }
 
 //3. generate password based on criteria
+var generatePassword = ""
 
+//genrate a reandom password based on selected character types
+for (var i = 0; i < passwordLength; i++) {
+  var randomList = randomItem(options)
+  var randomChar = randomItem(randomList)
+  generatePassword += randomChar
+}
 
 // 4.display password to page
+
+
+
 }
 
 // Write password to the #password input
