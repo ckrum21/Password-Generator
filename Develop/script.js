@@ -23,9 +23,30 @@ if(isNaN(passwordLength)) {
       return
     }
   
-
-
     //b. Lowercase, uppercase, numbers, and special characters
+    //promts user for each question. Confirm displays as a "ok" or "cancel"
+    var speCharacter = confirm("Click OK to confirm including spcecial characters.")
+
+    var numCharacter = confirm("Click OK to confirm including numeric characters.")
+  
+    var lowCase = confirm("Click OK to confirm including lowercase characters.")
+  
+    var upCase = confirm("Click OK to confirm including uppercase characters.")
+
+
+    //List of each charater type. User must pick from the characters below
+    var speList = ["!", "@", "#", "$", "%", "^", "&", "*"]
+
+    var numberList = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
+  
+    var lowercaseList = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
+  
+    var uppercaseList = []
+  //for loop allows the uppercase list to be the same characters as the lowercase list, but it is capitlized
+    for (var i = 0; i < lowercaseList.length; i++){
+      uppercaseList[i] = lowercaseList[i].toUpperCase()
+    }
+  
 //2. Validate the input
 //3. generate password based on criteria
 // 4.display password to page
