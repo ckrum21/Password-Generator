@@ -1,100 +1,32 @@
-# 03 JavaScript: Password Generator
+# Password-Generater
 
-## Your Task
+## Description
+The Password Generater is a website that generates a random password based on the criteria entered into the website prompts by the user. The user first must press the "Generate Password" button. Then they must answer a series of questions about their randomly generated password.
 
-This week's Challenge requires you to modify starter code to create an application that enables employees to generate random passwords based on criteria that they’ve selected. This app will run in the browser and will feature dynamically updated HTML and CSS powered by JavaScript code that you write. It will have a clean and polished, responsive user interface that adapts to multiple screen sizes.
+ The user must enter how many charaters long they would like their password to be. The password length must be between 8 - 128 characters long. If it does not meet this requirement, then the webpage will alert the user that the password must meet this criteria. If the user eneters any character other than a number, the webpage alerts the user that it has not entered a number. 
 
-The password can include special characters. If you’re unfamiliar with these, see this [list of password special characters](https://www.owasp.org/index.php/Password_special_characters) from the OWASP Foundation.
+ The webpage then asks the user if they would like to use special character, numbers, uppercase, and/or lowercase. Depending how the user answers these questions, the webpage will print the password accordingly. 
 
-## User Story
+## Installation
+link to website: https://github.com/ckrum21/Password-Generator 
+link to GitHub: https://github.com/ckrum21 
 
-```
-AS AN employee with access to sensitive data
-I WANT to randomly generate a password that meets certain criteria
-SO THAT I can create a strong password that provides greater security
-```
+Install this website by cloning the code to your local devices.
 
-## Acceptance Criteria
+software required to download this website:
+* GitBash or other terminal
+* Visual Studio Code
 
-```
-GIVEN I need a new, secure password
-WHEN I click the button to generate a password
-THEN I am presented with a series of prompts for password criteria done
-WHEN prompted for password criteria
-THEN I select which criteria to include in the password done
-WHEN prompted for the length of the password
-THEN I choose a length of at least 8 characters and no more than 128 characters done
-WHEN asked for character types to include in the password
-THEN I confirm whether or not to include lowercase, uppercase, numeric, and/or special characters done
-WHEN I answer each prompt
-THEN my input should be validated and at least one character type should be selected done 
-WHEN all prompts are answered
-THEN a password is generated that matches the selected criteria done 
-WHEN the password is generated
-THEN the password is either displayed in an alert or written to the page done 
-```
+## Usage
 
-## Mock-Up
+![](./assets/images/Picture1.png)
+![](./assets/images/Picture2.png)
+![](./assets/images/Picture3.png)
+![](./assets/images/Picture4.png)
 
-The following image shows the web application's appearance and functionality:
+The code used for this webpage is HTML, CSS, and Javascript
+The code for this webpage is used to display a box in which a random password is generated. The webpage uses Javascript to ask the user questions and generate the password.
 
-![The Password Generator application displays a red button to "Generate Password".](./Assets/03-javascript-homework-demo.png)
+## Credits
 
-## Grading Requirements
-
-> **Note**: If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
->
-> * A repository that has no code
->
-> * A repository that includes a unique name but nothing else
->
-> * A repository that includes only a README file but nothing else
->
-> * A repository that only includes starter code
-
-This Challenge is graded based on the following criteria: 
-
-### Technical Acceptance Criteria: 40%
-
-* Satisfies all of the preceding acceptance criteria.
-
-### Deployment: 32%
-
-* Application deployed at live URL.
-
-* Application loads with no errors.
-
-* Application GitHub URL submitted.
-
-* GitHub repository that contains application code.
-
-### Application Quality: 15%
-
-* Application user experience is intuitive and easy to navigate.
-
-* Application user interface style is clean and polished.
-
-* Application resembles the mock-up functionality provided in the Challenge instructions.
-
-### Repository Quality: 13%
-
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains quality readme file with description, screenshot, and link to deployed application.
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application.
-
-* The URL of the GitHub repository, with a unique name and a readme describing the project.
-
-- - -
-© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+Chelsea Krum 

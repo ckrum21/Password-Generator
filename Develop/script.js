@@ -39,7 +39,7 @@ if(isNaN(passwordLength)) {
   
     //b. Lowercase, uppercase, numbers, and special characters
     //promts user for each question. Confirm displays as a "ok" or "cancel"
-    var speCharacter = confirm("Click OK to confirm including spcecial characters.")
+    var speCharacter = confirm("Click OK to confirm including special characters.")
 
     var numCharacter = confirm("Click OK to confirm including numeric characters.")
   
@@ -98,8 +98,7 @@ for (var i = 0; i < passwordLength; i++) {
 }
 
 // 4.display password to page
-
-
+return generatePassword;
 
 }
 
