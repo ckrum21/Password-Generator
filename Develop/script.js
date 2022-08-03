@@ -48,7 +48,34 @@ if(isNaN(passwordLength)) {
     }
   
 //2. Validate the input
+//variable options allows the user to decide which criteria they want their password to have
+var options = []
+
+//The if functions below ask if the charater type is true or not(if selected "ok"). If it is true, then the list will be added to the options array
+if (speCharacter === true) {
+  options.push(speList)
+}
+
+if (numCharacter === true) {
+  options.push(numberList)
+}
+
+if (lowCase === true) {
+  options.push(lowercaseList)
+}
+
+if (upCase === true) {
+  options.push(uppercaseList)
+}
+
+//if no character types are selected, then the numbers list will be default 
+if (options.length === 0) {
+  options.push(numberList)
+}
+
 //3. generate password based on criteria
+
+
 // 4.display password to page
 }
 
