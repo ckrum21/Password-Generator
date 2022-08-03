@@ -19,10 +19,13 @@ software required to download this website:
 
 ## Usage
 
-![](./assets/images/Picture1.png)
-![](./assets/images/Picture2.png)
-![](./assets/images/Picture3.png)
-![](./assets/images/Picture4.png)
+![](./assets/images/Picture1.jpg)
+
+![](./assets/images/Picture2.jpg)
+
+![](./assets/images/Picture3.jpg)
+
+![](./assets/images/Picture4.jpg)
 
 The code used for this webpage is HTML, CSS, and Javascript
 The code for this webpage is used to display a box in which a random password is generated. The webpage uses Javascript to ask the user questions and generate the password.
